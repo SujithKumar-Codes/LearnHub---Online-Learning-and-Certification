@@ -13,7 +13,12 @@ const app = express();
 
 // Middleware
 // Allow Vite dev server on both 5173 and fallback 5174 (Vite can pick a different port)
-const allowedOrigins = ['http://localhost:5173', 'http://localhost:5174'];
+const allowedOrigins = [
+  'http://localhost:5173',
+  'http://localhost:5174',
+  process.env.FRONTEND_URL // this will be your deployed frontend later
+];
+
 app.use(cors({
   origin: function (origin, callback) {
     // allow requests like Postman or server-to-server (no origin)

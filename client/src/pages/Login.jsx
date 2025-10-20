@@ -64,10 +64,12 @@ const Login = () => {
         {/* Card */}
         <div className="bg-white/90 dark:bg-secondary-800/90 rounded-3xl shadow-3xl p-10 backdrop-blur-2xl border border-white/20 dark:border-secondary-700/20">
           {/* Logo */}
-          <div className="flex justify-center mb-8">
-            <div className="w-20 h-20 bg-gradient-to-br from-primary-500 via-purple-500 to-pink-500 rounded-3xl flex items-center justify-center shadow-2xl transform hover:scale-110 hover:rotate-12 transition-all duration-300 group">
-              <span className="text-white font-bold text-3xl group-hover:scale-110 transition-transform duration-300">LH</span>
-            </div>
+          <div className="flex justify-center mb-6">
+            <img
+              src="/logo.png"
+              alt="LearnHub Logo"
+              className="w-20 h-16 rounded-2xl shadow-lg hover:scale-110 transition-transform duration-300"
+            />
           </div>
 
           {/* Header */}
