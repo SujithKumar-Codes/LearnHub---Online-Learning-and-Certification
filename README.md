@@ -174,7 +174,7 @@ npm start
 2. Deployed the client folder to your hosting service
 3. Update API base URL in production
 
-### Backend (Railway)
+### Backend (Render)
 1. Set environment variables
 2. Deployed the server directory
 3. Configured MongoDB Atlas for production
@@ -203,5 +203,6 @@ This project is licensed under the MIT License.
 ---
 
 **LearnHub** - Learn. Grow. Achieve. 🚀
+
 
 
