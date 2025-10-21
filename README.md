@@ -20,10 +20,8 @@ A comprehensive educational platform built with React, Node.js, and MongoDB. Lea
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **React 18** with Vite
+- **React** with Vite
 - **Tailwind CSS** for styling
-- **React Router** for navigation
-- **Axios** for API calls
 - **jsPDF** for certificate generation
 
 ### Backend
@@ -31,7 +29,6 @@ A comprehensive educational platform built with React, Node.js, and MongoDB. Lea
 - **MongoDB** with Mongoose
 - **JWT** for authentication
 - **bcrypt** for password hashing
-- **CORS** enabled
 
 ## 📁 Project Structure
 
@@ -113,36 +110,6 @@ LearnHub/
    - Frontend: http://localhost:5173
    - Backend API: http://localhost:5000
 
-## 🔐 Demo Accounts
-
-### Admin Account
-- **Email:** admin@learnhub.com
-- **Password:** admin123
-
-### Student Account
-- **Email:** student@learnhub.com
-- **Password:** student123
-
-*Note: You can also create new student accounts through the signup page.*
-
-## 📚 API Endpoints
-
-### Authentication
-- `POST /api/auth/register` - Student registration
-- `POST /api/auth/login` - User login
-- `GET /api/auth/profile` - Get user profile
-
-### Courses
-- `GET /api/courses` - Get all courses
-- `GET /api/courses/:id` - Get course by ID
-- `POST /api/courses` - Create course (Admin only)
-- `PUT /api/courses/:id` - Update course (Admin only)
-- `DELETE /api/courses/:id` - Delete course (Admin only)
-
-### Certificates
-- `POST /api/certificates/generate` - Generate certificate
-- `GET /api/certificates/my-certificates` - Get user certificates
-
 ## 🎨 UI/UX Features
 
 - **Modern Design:** Clean, minimal interface with Tailwind CSS
@@ -181,7 +148,6 @@ npm start
 ### Authentication System
 - JWT-based authentication
 - Role-based access control (Admin/Student)
-- Protected routes with React Router
 - Password hashing with bcrypt
 
 ### Course Management
@@ -203,15 +169,15 @@ npm start
 
 ## 🚀 Deployment
 
-### Frontend (Vercel/Netlify)
+### Frontend (Vercel)
 1. Build the frontend: `npm run build`
-2. Deploy the `dist` folder to your hosting service
+2. Deployed the client folder to your hosting service
 3. Update API base URL in production
 
-### Backend (Railway/Heroku)
+### Backend (Railway)
 1. Set environment variables
-2. Deploy the server directory
-3. Configure MongoDB Atlas for production
+2. Deployed the server directory
+3. Configured MongoDB Atlas for production
 
 ## 🤝 Contributing
 
@@ -237,4 +203,5 @@ This project is licensed under the MIT License.
 ---
 
 **LearnHub** - Learn. Grow. Achieve. 🚀
+
 
