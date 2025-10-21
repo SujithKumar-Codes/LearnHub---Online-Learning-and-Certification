@@ -497,3 +497,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.nav-link {
+  @apply text-secondary-700 dark:text-secondary-200 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-colors duration-300;
+}
